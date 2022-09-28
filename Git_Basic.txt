@@ -1,6 +1,8 @@
 echo "# test" >> README.md
 git init
+git status ==> check here
 git add README.md
+git status ==>after add your files check again git status
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/harshitmittal24/test.git
